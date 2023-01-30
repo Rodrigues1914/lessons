@@ -1,0 +1,97 @@
+@import url('reset.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap');
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 1.125rem;
+	font-weight: 300;
+	line-height: 1.4;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 3rem;
+	line-height: 1.5;
+	color: #252b42;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 2.2rem;
+	line-height: 1.5;
+	color: #fafafa;
+	text-transform: uppercase;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 15px;
+}
+header {
+	font-size: 1.125rem;
+	background-color: #252b42;
+	padding: 20px 0;
+}
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-menu ul li {
+	display: inline;
+	color: #fff;
+	margin-right: 25px;
+	text-transform: uppercase;
+}
+.title span {
+	border-bottom: 5px solid#ebbc12;
+}
+.title-text {
+	margin-top: 25px;
+}
+.block2 .title-text span {
+	background-color: #ebbc12;
+}
+
+.nav-menu a:hover {
+	border-bottom: 1px solid#fff;
+	transition: 0.05s ease-in-out;
+}
+.block1 {
+	background-color: #fafafa;
+	padding: 70px 0;
+}
+.block2 {
+	background-color: #333;
+	padding: 70px 0;
+	color: #fafafa;
+}
+.block2 .title-text {
+}
+/* .utp {
+	max-width: 500px;
+	display: inline-block;
+} */
+footer {
+	padding: 15px 0;
+	background-color: #fafafa;
+	color: #333;
+	text-align: center;
+	font-size: 0.875rem;
+}
+.up {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	background-color: #ebbc12;
+	display: inline-block;
+	padding: 12px 40px;
+	max-width: min-content;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
