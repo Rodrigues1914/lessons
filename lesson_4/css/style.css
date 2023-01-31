@@ -4,7 +4,7 @@
 
 @font-face {
 	font-family: 'Circular Std';
-	src: url('/fonts/CircularStd-Bold.woff2') format('woff2'), url('/fonts/CircularStd-Bold.woff') format('woff');
+	src: url('../fonts/CircularStd-Bold.woff2') format('woff2'), url('../fonts/CircularStd-Bold.woff') format('woff');
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
 	font-family: 'Circular Std';
-	src: url('/fonts/CircularStd-Book.woff2') format('woff2'), url('/fonts/CircularStd-Book.woff') format('woff');
+	src: url('../fonts/CircularStd-Book.woff2') format('woff2'), url('../fonts/CircularStd-Book.woff') format('woff');
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
@@ -116,7 +116,7 @@ header {
 	font-family: 'Courier New', Courier, monospace;
 }
 .block4 .title-text {
-	font-family: 'Circular Std';
+	font-family: 'Circular Std' sans-serif;
 	font-weight: 500;
 	font-size: 1.2rem;
 }
@@ -130,7 +130,7 @@ footer {
 }
 .up {
 	color: #ebbc12;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat' sans-serif;
 	font-weight: 600;
 	background: none;
 	border: 2px solid#333;
