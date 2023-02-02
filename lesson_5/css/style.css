@@ -92,6 +92,39 @@ header {
 	border-radius: 10px;
 	box-shadow: 2px 2px 2px rgba(132, 132, 132, 0.3);
 }
+.nav_list {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 212px;
+	margin-bottom: 80px;
+	align-items: center;
+}
+.list_menu ul li {
+	display: inline-block;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+.list_menu-link {
+	padding: 5px 15px;
+	border: 1px solid#C4C4C4;
+	margin-right: 15px;
+	border-radius: 3px;
+}
+.list_menu-link:hover {
+	background-color: #d2d2d2;
+	/* box-shadow: 1px 1px 1px #9ea9b2; */
+}
+.share a {
+	font-weight: 700;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+.logo-up {
+	vertical-align: middle;
+	margin-right: 5px;
+	padding-bottom: 2px;
+}
 footer {
 	padding: 35px 0 15px;
 	background-color: #dadada;
