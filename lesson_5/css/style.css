@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+@import url('reset.css');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	line-height: 1.4;
+	color: #6c757d;
+	background-color: #e5e5e5;
+	font-size: 0.875rem;
+	line-height: 1.78;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 1.5625rem;
+	color: #212529;
+	line-height: 2.5rem;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1240px;
+	padding: 0 15px;
+}
+
+header {
+	font-size: 1rem;
+	background-color: #212529;
+	padding: 20px 0;
+}
+.menu {
+	color: #f8f9fa;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-menu ul li {
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 0.875rem;
+	color: #f8f9fa;
+}
+.nav-menu a:hover {
+	border-bottom: 1px solid#F8F9FA;
+}
+.date-time {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.date-time span::before {
+	content: '-';
+	padding-right: 2px;
+}
+.date-time span::after {
+	content: '-';
+	padding-left: 2px;
+}
+.logo {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.block1 {
+	padding: 80px 212px 40px;
+}
+#block_1 .title {
+	max-width: 400px;
+}
+.block2 {
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px rgba(132, 132, 132, 0.3);
+}
+.title {
+	margin-bottom: 40px;
+}
+.text-paragraf {
+	margin-bottom: 40px;
+}
+.row {
+	display: flex;
+}
+.column1 {
+	overflow: hidden;
+	margin-right: 30px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px rgba(132, 132, 132, 0.3);
+}
+.column2 {
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px rgba(132, 132, 132, 0.3);
+}
+footer {
+	padding: 35px 0 15px;
+	background-color: #dadada;
+	color: #333;
+	text-align: center;
+	font-size: 0.875rem;
+}
+.up {
+	color: #333;
+	font-family: 'Montserrat';
+	font-weight: 600;
+	background: none;
+	border: 2px solid#333;
+	display: inline-block;
+	padding: 12px 46px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: color 0.4s linear;
+}
+.up:hover {
+	background-color: #212529;
+	color: #fafafa;
+}
