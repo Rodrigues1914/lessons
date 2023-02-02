@@ -10,6 +10,11 @@ body {
 	font-size: 0.875rem;
 	line-height: 1.78;
 }
+h1 {
+	font-weight: 700;
+	font-size: 1.5625rem;
+	line-height: 2.5rem;
+}
 
 h2 {
 	font-weight: 600;
@@ -17,7 +22,9 @@ h2 {
 	color: #212529;
 	line-height: 2.5rem;
 }
-
+h3 {
+	font-size: 0.75rem;
+}
 .container {
 	margin: 0 auto;
 	max-width: 1240px;
@@ -25,12 +32,18 @@ h2 {
 }
 
 header {
+	background-image: url(/img/unsplash_ndN00KmbJ1c.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	max-height: 500px;
+	background-size: cover;
 	font-size: 1rem;
-	background-color: #212529;
+	/* background-color: #212529; */
 	padding: 20px 0;
+	color: #f8f9fa;
 }
 .menu {
-	color: #f8f9fa;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -38,7 +51,7 @@ header {
 .nav-menu ul li {
 	display: inline-block;
 	margin-left: 15px;
-	font-size: 0.875rem;
+	font-size: 0.75rem;
 	color: #f8f9fa;
 }
 .nav-menu a:hover {
@@ -59,6 +72,14 @@ header {
 .logo {
 	font-size: 20px;
 	font-weight: 700;
+}
+.header_title {
+	text-align: center;
+	margin: 160px auto 125px;
+}
+.header-title {
+	max-width: 520px;
+	margin: 10px auto;
 }
 
 .block1 {
