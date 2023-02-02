@@ -72,6 +72,9 @@ header {
 	border-radius: 10px;
 	box-shadow: 2px 2px 2px rgba(132, 132, 132, 0.3);
 }
+#block_2 .title {
+	max-width: 605px;
+}
 .title {
 	margin-bottom: 40px;
 }
