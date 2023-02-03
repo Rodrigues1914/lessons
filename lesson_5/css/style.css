@@ -156,19 +156,20 @@ footer {
 	text-align: center;
 	font-size: 0.875rem;
 }
+
 .up {
-	color: #333;
-	font-family: 'Montserrat';
-	font-weight: 600;
-	background: none;
-	border: 2px solid#333;
-	display: inline-block;
-	padding: 12px 46px;
-	border-radius: 5px;
-	margin-bottom: 10px;
-	cursor: pointer;
-	text-transform: uppercase;
-	transition: color 0.4s linear;
+    color: #6d757d;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background: none;
+    border: 1px solid#6d757d;
+    display: inline-block;
+    padding: 3px 32px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: color 0.4s linear;
 }
 .up:hover {
 	background-color: #212529;
