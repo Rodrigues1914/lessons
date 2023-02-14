@@ -15,11 +15,10 @@ h1 {
 	line-height: 1.6;
 }
 h2 {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 45px;
+	font-family: 'Inter' sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.07;
 	color: #212b36;
 }
 .container {
@@ -96,13 +95,6 @@ h2 {
 }
 .title {
 	margin-bottom: 45px;
-}
-.title h2 {
-	font-family: 'Inter';
-	font-weight: 400;
-	font-size: 26px;
-	line-height: 1.07;
-	color: #212b36;
 }
 .unorder-list-text {
 	display: flex;
