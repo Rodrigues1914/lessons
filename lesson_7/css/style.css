@@ -14,13 +14,7 @@ h1 {
 	font-size: 1.5625rem;
 	line-height: 1.6;
 }
-h2 {
-	font-family: 'Inter' sans-serif;
-	font-weight: 400;
-	font-size: 26px;
-	line-height: 1.07;
-	color: #212b36;
-}
+
 .container {
 	margin: 0 auto;
 	max-width: 1270px;
@@ -93,7 +87,12 @@ h2 {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-.title {
+.block1 .title {
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.07;
+	color: #212b36;
 	margin-bottom: 45px;
 }
 .unorder-list-text {
@@ -154,6 +153,10 @@ h2 {
 	margin-bottom: 14px;
 }
 .block2 .title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.25;
+	color: #212B36;
 	max-width: 470px;
 	margin-bottom: 15px;
 }
