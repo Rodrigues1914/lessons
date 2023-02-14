@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+@import url('reset.css');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	line-height: 1.7;
+	color: #637381;
+	background-color: #ececec;
+}
+h1 {
+	font-weight: 700;
+	font-size: 1.5625rem;
+	line-height: 1.6;
+}
+h2 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 45px;
+	color: #212b36;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1270px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.header {
+	background: url(../img/bg1.png) 0 50% / cover no-repeat;
+	font-size: 0.875rem;
+	line-height: 1.7;
+	color: #e5e5e5;
+	min-height: 600px;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+	min-height: 64px;
+	margin-bottom: 230px;
+	align-items: center;
+}
+
+.logo {
+	display: inline-block;
+	font-size: 1.125rem;
+	font-weight: 700;
+	color: #f8f9fa;
+}
+.nav-menu {
+	display: flex;
+	column-gap: 25px;
+}
+.nav-menu span {
+	color: rgba(249, 250, 251, 0.6);
+}
+.nav-menu a {
+	display: inline-block;
+	font-size: 0.875rem;
+	color: rgba(249, 250, 251, 0.6);
+	transition: all 0.2s ease;
+}
+.nav-menu a:hover {
+	color: #fff;
+}
+
+.nav-menu a img {
+	vertical-align: middle;
+}
+
+.header_title {
+	max-width: 605px;
+}
+.header_title h1,
+.date {
+	margin-bottom: 20px;
+}
+
+.header .sub-title {
+	max-width: 410px;
+}
+/* header end */
+
+/* main */
+/* unorder-list */
+
+.block1 {
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 16px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.title {
+	margin-bottom: 45px;
+}
+.title h2 {
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.07;
+	color: #212b36;
+}
+.unorder-list-text {
+	display: flex;
+	flex-wrap: wrap;
+}
+.list-text {
+	min-width: 33.3%;
+}
+.list-text li {
+	padding-left: 30px;
+	min-height: 20px;
+	margin-bottom: 15px;
+}
+.list-text li:last-child {
+	margin-bottom: 0px;
+}
+.list-text ul {
+	padding-right: 20px;
+}
+.first-row {
+	margin-bottom: 70px;
+}
+.list1 li {
+	background: url(../img/dot1.png) 0 50% no-repeat;
+}
+.list2 li {
+	background: url(../img/dot2.png) 0 50% no-repeat;
+}
+.list3 li {
+	background: url(../img/dot3.png) 0 50% no-repeat;
+}
+.list4 li {
+	background: url(../img/dot4.png) 0 50% no-repeat;
+}
+.list5 li {
+	background: url(../img/dot5.png) 0 50% no-repeat;
+}
+.list6 li {
+	background: url(../img/dot6.png) 0 50% no-repeat;
+}
+/* unorder-list end */
+
+/* speaker */
+.block2 {
+	background: url(../img/speaker.png) 75% 50% no-repeat,
+		linear-gradient(115deg, rgba(244, 247, 255, 0) 63%, rgba(48, 86, 211, 0.08) 60%, rgba(244, 247, 255, 0) 100%),
+		linear-gradient(115deg, rgba(244, 247, 255, 0) 68%, rgba(48, 86, 211, 0.08) 60%, rgba(244, 247, 255, 0) 100%)
+			#f4f7ff;
+	font-family: 'Inter';
+	padding: 155px 0;
+}
+.title-from {
+	color: #3056d3;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 14px;
+}
+.block2 .title {
+	max-width: 470px;
+	margin-bottom: 15px;
+}
+.block2 .sub-title {
+	max-width: 570px;
+	margin-bottom: 35px;
+}
+.btn {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #fff;
+	background-color: #3056d3;
+	padding: 10px 30px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+/* speaker end */
+
+/* main end */
+
+/* footer */
+.footer {
+	background: rgb(31, 75, 93);
+	background: linear-gradient(90deg, rgba(31, 75, 93, 1) 0%, rgba(8, 18, 22, 1) 50%, rgba(8, 37, 57, 1) 100%);
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #212529;
+	font-size: 0.75rem;
+}
+.footer-nav {
+	display: flex;
+	column-gap: 25px;
+	justify-content: center;
+}
+.footer-link {
+	display: flex;
+	column-gap: 25px;
+	justify-content: flex-end;
+}
+.first {
+	border-bottom: 1px solid rgba(248, 249, 250, 0.5);
+	padding-bottom: 22px;
+	margin-bottom: 22px;
+}
+.footer__row {
+	display: flex;
+	justify-content: space-between;
+}
+footer a {
+	color: rgba(248, 249, 250, 0.5);
+	display: inline-block;
+	cursor: pointer;
+	transition: color 0.2s ease;
+}
+.first a:hover {
+	color: #fff;
+}
