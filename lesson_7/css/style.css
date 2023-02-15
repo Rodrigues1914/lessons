@@ -14,7 +14,14 @@ h1 {
 	font-size: 1.5625rem;
 	line-height: 1.6;
 }
-
+h2 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 45px;
+	color: #212b36;
+}
 .container {
 	margin: 0 auto;
 	max-width: 1270px;
@@ -23,7 +30,7 @@ h1 {
 }
 
 .header {
-	background: url(../img/bg1.png) 0 50% / cover no-repeat;
+	background: url(../img/bg1.png) 0 0 / cover no-repeat;
 	font-size: 0.875rem;
 	line-height: 1.7;
 	color: #e5e5e5;
@@ -87,13 +94,15 @@ h1 {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-.block1 .title {
+.title {
+	margin-bottom: 45px;
+}
+.title h2 {
 	font-family: 'Inter';
 	font-weight: 400;
 	font-size: 26px;
 	line-height: 1.07;
 	color: #212b36;
-	margin-bottom: 45px;
 }
 .unorder-list-text {
 	display: flex;
@@ -112,27 +121,35 @@ h1 {
 }
 .list-text ul {
 	padding-right: 15px;
+	max-width: 412px;
 }
 .first-row {
-	margin-bottom: 60px;
+	margin-bottom: 70px;
 }
+
 .list1 li {
-	background: url(../img/dot1.png) 0 50% no-repeat;
+	background: url(../img/dot1.png) no-repeat;
+	background-position-y: 10px;
 }
 .list2 li {
-	background: url(../img/dot2.png) 0 50% no-repeat;
+	background: url(../img/dot2.png) no-repeat;
+	background-position-y: 4px;
 }
 .list3 li {
-	background: url(../img/dot3.png) 0 50% no-repeat;
+	background: url(../img/dot3.png) no-repeat;
+	background-position-y: 4px;
 }
 .list4 li {
-	background: url(../img/dot4.png) 0 50% no-repeat;
+	background: url(../img/dot4.png) no-repeat;
+	background-position-y: 4px;
 }
 .list5 li {
-	background: url(../img/dot5.png) 0 50% no-repeat;
+	background: url(../img/dot5.png) no-repeat;
+	background-position-y: 4px;
 }
 .list6 li {
-	background: url(../img/dot6.png) 0 50% no-repeat;
+	background: url(../img/dot6.png) no-repeat;
+	background-position-y: 4px;
 }
 /* unorder-list end */
 
@@ -153,10 +170,6 @@ h1 {
 	margin-bottom: 14px;
 }
 .block2 .title {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.25;
-	color: #212B36;
 	max-width: 470px;
 	margin-bottom: 15px;
 }
