@@ -45,9 +45,8 @@ h3 {
 .menu {
 	display: flex;
 	justify-content: space-between;
-	min-height: 64px;
-	margin-bottom: 230px;
-	align-items: center;
+	margin-bottom: 250px;
+	padding-top: 15px;
 }
 
 .logo {
@@ -59,21 +58,21 @@ h3 {
 .nav-menu {
 	display: flex;
 	column-gap: 25px;
+	padding-top: 4px;
 }
 .nav-menu span {
 	color: rgba(249, 250, 251, 0.6);
 }
 .nav-menu a {
-	display: inline-block;
 	font-size: 0.875rem;
 	color: rgba(249, 250, 251, 0.6);
-	transition: all 0.2s ease;
 }
-.nav-menu a:hover {
+.nav-link:hover {
 	color: #fff;
+	border-bottom: 2px solid #ddbea9;
 }
 
-.nav-menu a img {
+.nav-menu img {
 	vertical-align: middle;
 }
 
@@ -201,7 +200,7 @@ h3 {
 /* footer */
 .footer {
 	background: rgb(31, 75, 93);
-	background: linear-gradient(90deg, rgba(31, 75, 93, 1) 0%, rgba(8, 18, 22, .8) 50%, rgba(8, 37, 57, 1) 100%);
+	background: linear-gradient(90deg, rgba(31, 75, 93, 1) 0%, rgba(8, 18, 22, 1) 50%, rgba(8, 37, 57, 1) 100%);
 	padding-top: 100px;
 	padding-bottom: 100px;
 	background-color: #212529;
