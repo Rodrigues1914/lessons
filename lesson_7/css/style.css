@@ -201,7 +201,7 @@ h3 {
 /* footer */
 .footer {
 	background: rgb(31, 75, 93);
-	background: linear-gradient(90deg, rgba(31, 75, 93, 1) 0%, rgba(8, 18, 22, 1) 50%, rgba(8, 37, 57, 1) 100%);
+	background: linear-gradient(90deg, rgba(31, 75, 93, 1) 0%, rgba(8, 18, 22, .8) 50%, rgba(8, 37, 57, 1) 100%);
 	padding-top: 100px;
 	padding-bottom: 100px;
 	background-color: #212529;
