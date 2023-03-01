@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+@import url('reset.css');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	line-height: 1.6;
+	font-size: 18px;
+	color: #333;
+}
+h2{
+	font-size: 36px;
+	font-weight: 500;
+}
+h3 {
+	font-size: 26px;
+	font-weight: 500;
+}
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+[class*=__block] {
+	padding: 70px 0;
+}
+.title {
+	margin-bottom: 50px;
+}
+.icon__block {
+	background-color: #b9b8e0;
+}
+.example-svg > *:not(:last-child) {
+	margin-right: 25px;
+} 
+.example-svg > * {
+	vertical-align: middle;
+} 
+[class*=__round] {
+	display: inline-block;
+	border-radius: 50%;
+	width: 130px;
+	height: 130px;
+	text-align: center;
+	vertical-align: middle;
+}
+.icon1__round {
+	background: url(../img/mail.svg) 50% no-repeat #F7F8FA;
+}
+.icon2__round {
+	background: url(../img/phon.svg) 50% no-repeat #F7F8FA;
+}
+.icon3__round {
+	background: url(../img/pos.svg) 50% no-repeat #F7F8FA;
+}
+.small-bg {
+	padding: 15px;
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+.example-design {
+	text-align: center;
+}
+.example-design>*:not(:last-child){
+	margin-bottom: 50px;
+}
+.row-design > *:not(:last-child) {
+	margin-right: 30px;
+}
+.row-design > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+.black-bg {
+	background: url(../img/DottedShapeWhite.svg) 98% 90% no-repeat, url(../img/DottedShapeWhite.svg) 2% 10% no-repeat, url(../img/Vector\ 14.svg) 100% 0 no-repeat, url(../img/Vector\ 15.svg) 0 100% no-repeat, url(../img/shape.svg) 100% 0 no-repeat, url(../img/Rectangle\ 4362.svg) 51% 56% no-repeat, url(../img/Rectangle\ 4363.svg) 48% 55% no-repeat;
+	background-color: #333;
+	min-height: 250px;
+
+}
+
+.image__block {
+	background-color: #F7F8FA;
+}
+.image__block .example {
+	text-align: center;
+}
+.image__block .example>*:not(:last-child) {
+	margin-bottom: 50px;
+}
+.image-header {
+	background: url(../img/Rectangle\ 4574.webp) 100% 0 / cover no-repeat;
+	border-radius: 10px;
+	padding: 100px 0;
+	min-height: 500px;
+}
+[class*=__border] > * {
+	border-radius: 15px;
+}
+.image__border > *:not(:last-child) {
+	margin-right: 30px;
+}
