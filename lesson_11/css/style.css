@@ -116,7 +116,7 @@ h2{
 	width: 180px;
 	opacity: 0;
 	visibility: hidden;
-	padding-top: 30px;
+	padding-top: 23px;
 	transition: .5s;
 }
 .sub-menu::before {
