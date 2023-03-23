@@ -34,27 +34,36 @@ h2{
 	line-height: 40px;
 }
 .header {
+	position: relative;
 	background: url(../img/bg.jpg) no-repeat;
 	background-position: center;
 	background-size: cover;
 	width: 100%;
+	padding: 35px 0 100px 0;
+}
+.header::before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 .header-container {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 600px;
 }
 .header-navigation {
-	padding: 35px 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	margin-bottom: 260px;
 }
 .header-title {
 	position: relative;
-	left: 0;
-	bottom: 100px;
 	max-width: 605px;
 }
 .header-title>*:not(:last-child){
@@ -109,7 +118,6 @@ h2{
 }
 /* header end */
 
-/* news */
 .page {
 	display: flex;
 	flex-direction: column;
@@ -151,6 +159,7 @@ h2{
 	margin: 0 -15px;
 }
 .content__column {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	padding: 0 15px;
@@ -160,21 +169,46 @@ h2{
 	margin-bottom: 15px;	
 }
 .column__photo {
-	display: flex;
+	position: relative;
 	overflow: hidden;
 	border-radius: 5px;
 	transition: all 0.3s;
 	background-size: cover;
+	box-shadow: 2px 2px 7px rgba(73, 80, 87, .5);
+}
+.column__photo::before{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(16, 18, 21, 0.3);
+	position: absolute;
+	z-index: 5;
+	opacity: 1;
+	transition: all .3s ease-in-out;
 }
 .column__photo img {
 	max-width: 100%;
+	transition: all .3s;
+}
+.photo__link {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	display: inline-block;
+	color: #F8F9FA;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 8px;
+	line-height: 1px;
+	background: rgba(33, 37, 41, 0.3);
+	border-radius: 3px;
+	padding: 12px;
 }
 .column__date {
-	display: flex;
 	color: #495057;
 }
 .column__subject {
-	display: flex;
 	font-weight: 700;
 	font-size: 25px;
 	line-height: 1.6;
@@ -182,8 +216,14 @@ h2{
 	transition: all .3s;
 	margin-bottom: 15px;
 }
-.column__subject a:hover {
+.page-content a:hover .column__subject {
 	text-decoration: underline;
+}
+.page-content a:hover .column__photo img {
+	transform: scale(1.05);
+}
+.page-content a:hover .column__photo::before{
+	opacity: 0;
 }
 .column__text,
 .column__copyright {
