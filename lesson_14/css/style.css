@@ -235,6 +235,8 @@ h2{
 .column__text {
 	display: flex;
 	flex-grow: 1;
+	border-bottom: 1px solid #E5E5E5;
+	padding-bottom: 15px;
 }
 
 /* footer */
