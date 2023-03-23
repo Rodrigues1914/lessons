@@ -238,6 +238,25 @@ h2{
 	border-bottom: 1px solid #E5E5E5;
 	padding-bottom: 15px;
 }
+.page-button {
+	text-align: center;
+}
+.button {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+	color: #F8F9FA;
+	padding: 7px 50px 8px 50px;
+	border-radius: 3px;
+	background: #212529;
+	cursor: pointer;
+	transition: all .3s;
+}
+.button:hover {
+	transform: scale(1.05);
+}
 
 /* footer */
 .footer {
