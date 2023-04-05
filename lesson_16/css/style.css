@@ -159,7 +159,7 @@ body{
 .register-form__text {
 	margin-bottom: 15px;
 }
-.register-form__link {
+.register__link {
 	margin-left: 25px;
 	display: inline-block;
 	font-weight: 400;
@@ -168,7 +168,7 @@ body{
 	color: #0F6DB1;
 	cursor: pointer;
 } 
-.register-form__link:hover {
+.register__link:hover {
 	text-decoration: underline;
 }
 .chek-form {
