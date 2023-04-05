@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 16</title>
+	</head>
+
+	<body>
+		<div class="wrapper">
+
+			<main class="box">
+				<div class="box__container">
+					<div class="box__content">
+						<div class="box__header header-box">
+							<h1>Checkout</h1>
+							<p>There are 3 products in your cart</p>
+						</div>
+
+						<div class="box__title title-box">
+							<h2>Billing Details</h2>
+						</div>
+
+						<form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form">
+							<div class="form__items">
+								<div class="form__item">
+									<input type="text" name="first-name" placeholder="First name*" required class="form__input"
+										autocomplete="off">
+								</div>
+								<div class="form__item">
+									<input type="text" name="last-name" placeholder="Last name*" required class="form__input"
+										autocomplete="off">
+								</div>
+								<div class="form__item">
+									<input type="text" name="address" placeholder="Address*" required class="form__input"
+										autocomplete="off">
+								</div>
+								<div class="form__item">
+									<input type="text" name="address-2" placeholder="Address line 2" required class="form__input"
+										autocomplete="off">
+								</div>
+								<div class="form__item">
+									<select name="country" required class="form__input form__input_select" autocomplete="off">
+										<option value="disabled selected">Country*</option>
+										<option value="Ukraine">Ukraine</option>
+										<option value="Maldives">Maldives</option>
+										<option value="Germany">Germany</option>
+										<option value="Lithuania">Lithuania</option>
+									</select>
+								</div>
+								<div class="form__item">
+									<input type="text" name="city" placeholder="City/Town*" required class="form__input"
+										autocomplete="off">
+								</div>
+								<div class="form__item">
+									<input type="number" name="postcode" placeholder="Postcode / ZIP*" required
+										class="form__input" autocomplete="off">
+								</div>
+								<div class="form__item">
+									<input type="number" name="phone" placeholder="Phone*" required class="form__input"
+										autocomplete="off">
+								</div>
+								<div class="form__item">
+									<input type="number" name="postcode" placeholder="Postcode / ZIP*" class="form__input"
+										autocomplete="off">
+								</div>
+								<div class="form__item">
+									<input type="number" name="phone" placeholder="Phone*" class="form__input"
+										autocomplete="off">
+								</div>
+								<div class="form__item form__item_textarea">
+									<textarea class="form__input form__input_textarea" placeholder="Additional information"
+										name="information" id="" cols="30" rows="10"></textarea>
+								</div>
+							</div>
+							<div class="form__radio"></div>
+							<div class="form__chek chek-form">
+								<h3>Apply Coupon to get discount!</h3>
+								<div class="chek-form__row">
+									<input class="chek-form__input" type="text" name="coupon" value="" placeholder="Coupon code">
+									<button class="chek-form__button button">Apply Code</button>
+								</div>
+
+							</div>
+						</form>
+
+						<div class="box__navigation navigation-box">
+							<a class="btn" href="nextpage.html">Next page</a>
+							<img class="icon" src="img/arrow.png" alt="arrow">
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+
+</html>

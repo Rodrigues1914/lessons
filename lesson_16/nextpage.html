@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 16</title>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<main class="box">
+				<div class="box__container">
+					<div class="box__content box__content_small">
+
+						<div class="box__title title-box">
+							<h4>Shipping Address</h4>
+						</div>
+
+						<form action="https://jsonplaceholder.typicode.com/posts" method="post" class="box__form form">
+							<div class="form__items form__items_big">
+								<div class="form__item form__item_big">
+									<label for="email" class="form__label">Email Address<span> *</span></label>
+									<input type="email" class="form__input form__input_big" placeholder="roni_cost@example.com"
+										required>
+								</div>
+								<div class="form__item form__item_big">
+									<label for="password" class="form__label">Password</label>
+									<input type="password" class="form__input form__input_big" id="password" name="userpass"
+										value="" maxlength="10" placeholder="******************" required>
+								</div>
+								<div class="form__item form__item_big">
+									<label for="post-code" class="form__label">Zip/Postal Code</label>
+									<input type="number" class="form__input form__input_big" id="post-code" name="postcode"
+										value="" minlength="5" placeholder="" required>
+								</div>
+							</div>
+
+							<div class="form__register register">
+								<p class="register__text">You already have an account with us. Sign in or continue as
+									guest.</p>
+								<div class="register__row">
+									<button type="submit" class="register__button button-register">login</button>
+									<div class="register__link">Forgot Your Password?</div>
+								</div>
+							</div>
+						</form>
+
+						<form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form">
+							<div class="form__items form__items_big">
+								<div class="form__item form__item_big">
+									<label for="name" class="form__label">First Name<span> *</span></label>
+									<input type="text" class="form__input form__input_big" placeholder="" required>
+								</div>
+								<div class="form__item form__item_big">
+									<label for="" class="form__label">Last Name<span> *</span></label>
+									<input type="text" class="form__input form__input_big" id="password" name="userpass" value=""
+										maxlength="10" placeholder="" required>
+								</div>
+								<div class="form__item form__item_big">
+									<label for="post-code" class="form__label">Company</label>
+									<input type="text" class="form__input form__input_big" id="post-code" name="postcode"
+										value="" minlength="5" placeholder="" required>
+								</div>
+								<div class="form__item form__item_big">
+									<label for="address" class="form__label">Street Address<span> *</span></label>
+									<div class="form__list">
+										<input type="text" class="form__input" id="address" name="address" value="" minlength="5"
+											placeholder="" required>
+										<input type="text" class="form__input" id="ad" name="address" value="" minlength="5"
+											placeholder="" required>
+										<input type="text" class="form__input" id="address" name="address" value="" minlength="5"
+											placeholder="" required>
+									</div>
+
+								</div>
+								<div class="form__item form__item_big">
+									<label for="country" class="form__label">Country<span> *</span></label>
+									<input type="text" class="form__input form__input_big" id="country" name="country" value=""
+										minlength="5" placeholder="" required>
+								</div>
+								<div class="form__item form__item_big">
+									<label for="post-code" class="form__label">State/Province<span> *</span></label>
+									<select name="state" required class="form__input form__input_chek" autocomplete="off">
+										<option value="disabled selected">Please select a region, state or province</option>
+										<option value="Ukraine">Ukraine</option>
+										<option value="Maldives">Maldives</option>
+										<option value="Germany">Germany</option>
+										<option value="Lithuania">Lithuania</option>
+									</select>
+								</div>
+							</div>
+							<div class="form__title">
+								<h4>Shipping Methods</h4>
+							</div>
+							<div class="form__price price">
+
+								<div class="price__line">
+
+									<input type="radio" class="price__input" name="price" id="price-1" value="$5.00">
+									<label class="price__label" for="price-1">
+										<div class="price__coast">$5.00</div>
+										<div class="price__text">Fixed</div>
+										<div class="price__text">Flat Rate</div>
+									</label>
+								</div>
+
+								<div class="price__border"></div>
+
+								<div class="price__line">
+									<input type="radio" class="price__input" name="price" id="price-2" value="$10.00">
+									<label class="price__label" for="price-2">
+										<div class="price__coast">$10.00</div>
+										<div class="price__text">Table Rate</div>
+										<div class="price__text">Best Way</div>
+									</label>
+								</div>
+
+							</div>
+
+							<div class="form__register register-form">
+								<button type="submit" class="register-form__button button-register">next</button>
+								<a href="#" class="register-form__btn">back</a>
+							</div>
+
+						</form>
+
+						<div class="box__navigation navigation-box">
+							<a class="navigation-box__button" href="index.html">Come back</a>
+							<img class="icon" src="img/arrow.png" alt="arrow">
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+
+</html>
