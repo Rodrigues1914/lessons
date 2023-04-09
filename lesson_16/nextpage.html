@@ -21,19 +21,19 @@
 						<form action="https://jsonplaceholder.typicode.com/posts" method="post" class="box__form form">
 							<div class="form__items form__items_big">
 								<div class="form__item form__item_big">
-									<label for="email" class="form__label">Email Address<span> *</span></label>
+									<label class="form__label">Email Address<span> *</span></label>
 									<input type="email" class="form__input form__input_big" placeholder="roni_cost@example.com"
 										required>
 								</div>
 								<div class="form__item form__item_big">
 									<label for="password" class="form__label">Password</label>
 									<input type="password" class="form__input form__input_big" id="password" name="userpass"
-										value="" placeholder="******************" required>
+										value="" maxlength="10" placeholder="******************" required>
 								</div>
 								<div class="form__item form__item_big">
 									<label for="post-code" class="form__label">Zip/Postal Code</label>
 									<input type="number" class="form__input form__input_big" id="post-code" name="postcode"
-										value="" required>
+										value="" placeholder="" required>
 								</div>
 							</div>
 
@@ -42,7 +42,7 @@
 									guest.</p>
 								<div class="register__row">
 									<button type="submit" class="register__button button-register">login</button>
-									<div class="register__link">Forgot Your Password?</div>
+									<a href="#" class="register__link">Forgot Your Password?</a>
 								</div>
 							</div>
 						</form>
@@ -50,40 +50,37 @@
 						<form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form">
 							<div class="form__items form__items_big">
 								<div class="form__item form__item_big">
-									<label for="name" class="form__label">First Name<span> *</span></label>
+									<label class="form__label">First Name<span> *</span></label>
 									<input type="text" class="form__input form__input_big" placeholder="" required>
 								</div>
 								<div class="form__item form__item_big">
-									<label for="" class="form__label">Last Name<span> *</span></label>
-									<input type="text" class="form__input form__input_big" id="password" name="userpass" value=""
-										 required>
+									<label class="form__label">Last Name<span> *</span></label>
+									<input type="text" class="form__input form__input_big" name="userpass" value=""
+										maxlength="10" placeholder="" required>
 								</div>
 								<div class="form__item form__item_big">
-									<label for="post-code" class="form__label">Company</label>
-									<input type="text" class="form__input form__input_big" id="post-code" name="postcode"
-										value="" required>
+									<label class="form__label">Company</label>
+									<input type="text" class="form__input form__input_big" name="postcode"
+										value="" minlength="5" placeholder="" required>
 								</div>
 								<div class="form__item form__item_big">
-									<label for="address" class="form__label">Street Address<span> *</span></label>
+									<label class="form__label">Street Address<span> *</span></label>
 									<div class="form__list">
-										<input type="text" class="form__input" id="address" name="address" value=""
-											required>
-										<input type="text" class="form__input" id="ad" name="address" value="" 
-											 required>
-										<input type="text" class="form__input" id="address" name="address" value=""
-											 required>
+										<input type="text" class="form__input" name="address" value="" placeholder="" required>
+										<input type="text" class="form__input" name="address" value="" placeholder="" required>
+										<input type="text" class="form__input" name="address" value="" placeholder="" required>
 									</div>
 
 								</div>
 								<div class="form__item form__item_big">
 									<label for="country" class="form__label">Country<span> *</span></label>
 									<input type="text" class="form__input form__input_big" id="country" name="country" value=""
-										 placeholder="" required>
+										minlength="5" placeholder="" required>
 								</div>
 								<div class="form__item form__item_big">
 									<label class="form__label">State/Province<span> *</span></label>
 									<select name="state" required class="form__input form__input_chek" autocomplete="off">
-										<option value="disabled selected">Please select a region, state or province</option>
+										<option value="">Please select a region, state or province</option>
 										<option value="Ukraine">Ukraine</option>
 										<option value="Maldives">Maldives</option>
 										<option value="Germany">Germany</option>
@@ -100,9 +97,9 @@
 
 									<input type="radio" class="price__input" name="price" id="price-1" value="$5.00">
 									<label class="price__label" for="price-1">
-										<div class="price__coast">$5.00</div>
-										<div class="price__text">Fixed</div>
-										<div class="price__text">Flat Rate</div>
+										<span class="price__coast">$5.00</span>
+										<span class="price__text">Fixed</span>
+										<span class="price__text">Flat Rate</span>
 									</label>
 								</div>
 
@@ -111,9 +108,9 @@
 								<div class="price__line">
 									<input type="radio" class="price__input" name="price" id="price-2" value="$10.00">
 									<label class="price__label" for="price-2">
-										<div class="price__coast">$10.00</div>
-										<div class="price__text">Table Rate</div>
-										<div class="price__text">Best Way</div>
+										<span class="price__coast">$10.00</span>
+										<span class="price__text">Table Rate</span>
+										<span class="price__text">Best Way</span>
 									</label>
 								</div>
 
